@@ -1,0 +1,22 @@
+void main() {
+  print("Merhaba Dünya");
+  String ogrenciIsim = "Enes Çoşkun";
+  int ogrenciYas = 17;
+  double ogrenciboyUzunlugu = 1.69;
+  String isminBasHarfi = "E";
+  print (ogrenciIsim);
+  print(ogrenciIsim);
+  print(ogrenciYas);
+  print(ogrenciboyUzunlugu);
+  print(isminBasHarfi);
+print(" öğrencinin ismi $ogrenciIsim");
+print("öğrencinin yaşı $ogrenciYas");
+print("öğrencinin boy uzunluğu $ogrenciboyUzunlugu");
+print("öğrencinin isminin başharfi $isminBasHarfi");
+String ogrenciIsim2 = "X şahsı";
+int yil = 0;
+String cumle = "İstanbulda yaşamaktadır";
+  print("$ogrenciIsim2 $yil yıldır $cumle");
+  int enes =6;
+  int zeynep =7;
+  print( "$enes ve $zeynep  > ${enes+zeynep}");
